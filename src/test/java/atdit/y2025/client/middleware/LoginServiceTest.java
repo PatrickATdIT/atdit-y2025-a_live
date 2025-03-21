@@ -20,4 +20,8 @@ public class LoginServiceTest {
 
     Assertions.assertEquals( null, user );
   }
+
+  @Test
+  public void ifUserName_ThenLoginFailed() {
+  }
 }

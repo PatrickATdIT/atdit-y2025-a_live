@@ -43,6 +43,7 @@ public class LoginService {
     logger.trace( "Response Message {}", response.message( ) );
     logger.trace( "Response: {}", response.payload( ) );
 
+
     switch( response.responseCode( ) ) {
       case HttpURLConnection.HTTP_OK:
         logger.info( "Login Successful" );
